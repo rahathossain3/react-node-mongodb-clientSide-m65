@@ -57,8 +57,8 @@ const Home = () => {
                         key={user._id}
                     >{user.name}:: {user.email}
 
-                        {/*--------------- for update ------------------- */}
-                        <Link to={`/update/${user._id}`}> <button>Update</button> </Link>
+                        {/*--------------- for update -------------------- */}
+                        <Link to={`/update/${user._id}`}> <button> Update </button> </Link>
 
                         {/* -------------- for delete ------------------- */}
                         <button onClick={() => handleUserDelete(user._id)}>X</button>
